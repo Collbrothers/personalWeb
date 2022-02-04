@@ -1,0 +1,9 @@
+@import url('http://fonts.cdnfonts.com/css/helvetica-neue-9');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.small {
+    @apply text-sky-400 after:content-['_↗'] decoration-solid hover:underline
+}
